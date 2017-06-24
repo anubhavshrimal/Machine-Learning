@@ -1,12 +1,10 @@
 import quandl
-import math
 import numpy as np
 from sklearn import preprocessing
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
 
-quandl.ApiConfig.api_key = "WUeyu2PkMLdFEWt2mfo5"
 # Get the data set from quandl
 df = quandl.get('WIKI/GOOGL')
 
@@ -26,7 +24,6 @@ forecast_col = 'Adj. Close'
 df.fillna(-99999, inplace=True)
 
 # Number of days in future that we want to predict the price for
-# future_days = math.ceil(0.01 * len(df))
 future_days = 10
 
 # define the label as Adj. Close future_days ahead in time
