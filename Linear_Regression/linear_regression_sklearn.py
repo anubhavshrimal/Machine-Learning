@@ -3,8 +3,13 @@ import numpy as np
 from sklearn import preprocessing
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
+import pickle
+import os
 
-
+"""
+Needed if more than 50 request/day
+quandl.ApiConfig.api_key = "Quandl_API_KEY"
+"""
 # Get the data set from quandl
 df = quandl.get('WIKI/GOOGL')
 
@@ -52,12 +57,26 @@ y = np.array(df['label'])
 # Testing data = 20% of total data
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
-# Classifier of linear regression
-# n_jobs = -1 means training the model parallely, as many jobs as possible
-clf = LinearRegression(n_jobs=-1)
+# Load Classifier of linear regression
+pickle_file_name = 'linear_regression.pickle'
 
-# train the model on training data
-clf.fit(X_train, y_train)
+# If pre-trained pickle exists load it
+if os.path.isfile('./' + pickle_file_name):
+    # Load the classifier from the pre-trained pickle
+    pickle_file = open(pickle_file_name, 'rb')
+    clf = pickle.load(pickle_file)
+# Otherwise train the classifier and save it in a pickle
+else:
+    # n_jobs = -1 means training the model parallely, as many jobs as possible
+    clf = LinearRegression(n_jobs=-1)
+
+    # train the model on training data
+    clf.fit(X_train, y_train)
+
+    # save the pickle
+    with open(pickle_file_name, 'wb') as f:
+        pickle.dump(clf, f)
+
 
 # Test the accuracy of the data on the testing data set
 # How well is the model predicting the future prices
