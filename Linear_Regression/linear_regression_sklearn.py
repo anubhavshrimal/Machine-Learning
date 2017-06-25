@@ -7,7 +7,7 @@ import pickle
 import os
 
 """
-Needed if more than 50 request/day
+# Needed if more than 50 request/day
 quandl.ApiConfig.api_key = "Quandl_API_KEY"
 """
 # Get the data set from quandl
@@ -58,7 +58,7 @@ y = np.array(df['label'])
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
 # Load Classifier of linear regression
-pickle_file_name = 'linear_regression.pickle'
+pickle_file_name = 'linear_regression_sklearn.pickle'
 
 # If pre-trained pickle exists load it
 if os.path.isfile('./' + pickle_file_name):
