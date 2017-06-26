@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 
 # Load the data set
-df = pd.read_csv('breast-cancer-wisconsin.data.txt')
+df = pd.read_csv('../datasets/breast-cancer-wisconsin.data.txt')
 
 # Replace the unassigned values with -99999 and drop the id column
 df.replace('?', -99999, inplace=True)
