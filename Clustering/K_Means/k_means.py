@@ -94,7 +94,6 @@ clf.fit(X)
 correct = 0
 for i in range(len(X)):
     feature = np.array(X[i].astype(float))
-    feature = feature.reshape(-1, len(feature))
     prediction = clf.predict(feature)
     if prediction == y[i]:
         correct += 1
