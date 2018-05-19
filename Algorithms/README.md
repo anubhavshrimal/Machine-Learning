@@ -1,6 +1,11 @@
 * [Clustering Algorithms](Clustering/)
     * [K Means](Clustering/K_Means)
+        * [Implemented](Clustering/K_Means/k_means.py)
+        * [Scikit Learn Implementation](Clustering/K_Means/k_means_sklearn.py)
+
     * [Mean Shift](Clustering/Mean_Shift)
+        * [Implemented](Clustering/Mean_Shift/mean_shift.py)
+        * [Scikit Learn Implementation](Clustering/Mean_Shift/mean_shift_sklearn.py)
 
 * [Deep Learning](Deep_Learning/)
     * [Deep Neural Networks](Deep_Learning/Deep_Neural_Networks)
