@@ -24,4 +24,5 @@ Implementations of some popular machine learning algorithms and participation in
 
 | 			Algorithm/Topic			|	Folder |
 |-----------------------------------|------------------|
-|[Dogs-vs-Cats-Redux-Kernels](Kaggle-Competitions/Dogs-vs-Cats-Redux-Kernels/)| Dogs vs Cats Classification using Resnet (CNN)|
+|[Dogs-vs-Cats-Redux-Kernels](Kaggle-Competitions/Dogs-vs-Cats-Redux-Kernels/)| Dogs vs Cats Classification using transfer learning `Resnet34` (CNN)|
+|[Dog-Breed-Identification](Kaggle-Competitions/Dog-Breed-Identification/)| Dog Breed Identification using transfer learning `Resnet101_64` (CNN)|
