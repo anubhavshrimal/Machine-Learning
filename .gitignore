@@ -1,4 +1,5 @@
 .idea/
 datasets/mnist/
 
+**/.ipynb_checkpoints/**
 Kaggle-Competitions/Dogs-vs-Cats-Redux-Kernels/\.ipynb_checkpoints/
