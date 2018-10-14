@@ -8,7 +8,7 @@ from sklearn import preprocessing
 
 class K_Means:
     def __init__(self, k=2, tol=0.001, max_iter=300):
-        self.k = 2
+        self.k = k
         self.tol = tol
         self.max_iter = max_iter
 
