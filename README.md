@@ -1,6 +1,6 @@
-# Machine_Learning <!-- omit in toc -->
+# Machine Learning <!-- omit in toc -->
 
-Implementations of some popular machine learning algorithms and participation in Kaggle Competitions.
+Details of my Projects, Kaggle Competitions and implementation of some popularly known machine learning algorithms.
 
 ## Index: <!-- omit in toc -->
 
