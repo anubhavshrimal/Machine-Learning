@@ -17,6 +17,7 @@ Following are the projects I've done in the Machine Learning field:
 
 | Name                                                                                                                 | Description                                                                                                                                                   |
 | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Image Captioning](https://github.com/anubhavshrimal/Attention-Beam-Image-Captioning)                                | Used Encoder(CNN)-Decoder(RNN) along with Attention and Beam Search heuristic  to generate caption for a given image                                          |
 | [GANs Generate Faces](https://github.com/anubhavshrimal/GANs-Generate-Faces)                                         | Used Generative Adversarial Networks (GANs) to generate new images of human faces                                                                             |
 | [SageMaker Pytorch Model Deployment](https://github.com/anubhavshrimal/SageMaker-PyTorch-Model-Deployment)           | Deployed a Pytorch model which predicts the sentiment of a review using Amazon's SageMaker                                                                    |
 | [RNN Generate TV Scripts](https://github.com/anubhavshrimal/RNN-Generate-TV-Scripts)                                 | An LSTM implementation in PyTorch that generates a new, "fake" TV script using Seinfeld dataset of scripts from 9 seasons                                     |
@@ -33,7 +34,6 @@ There are a few other projects I've done but currently not on Github:
 
 | Name                                  | Description                                                                                                  |
 | ------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| Image Captioning                      | CNN-LSTM Attention based model to caption an image                                                           |
 | Game Bot using Reinforcement Learning | Game bot trained using Deep Q Networks and Q-learning to play games such as PACMAN, Frozen-lake, etc.        |
 | Course Recommendation System          | Appriori Algorithm based recommendation system to suggest courses based on past student's data at IIIT Delhi |
 
