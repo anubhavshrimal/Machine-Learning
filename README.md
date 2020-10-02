@@ -1,10 +1,13 @@
 # Machine Learning <!-- omit in toc -->
 
-Details of my Projects, Kaggle Competitions and implementation of some popularly known machine learning algorithms.
+My Projects, Kaggle Competitions and implementation of some popularly known machine learning algorithms.
+
+I have also included a list of research papers I have curated in the feild of ML/DL/AI.
 
 ## Index: <!-- omit in toc -->
 
 - [Projects](#projects)
+- [Research Papers (Anubhav Reads)](#research-papers-anubhav-reads)
 - [Kaggle Competitions](#kaggle-competitions)
 - [Algorithms](#algorithms)
 
@@ -36,6 +39,13 @@ There are a few other projects I've done but currently not on Github:
 | ------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | Game Bot using Reinforcement Learning | Game bot trained using Deep Q Networks and Q-learning to play games such as PACMAN, Frozen-lake, etc.        |
 | Course Recommendation System          | Appriori Algorithm based recommendation system to suggest courses based on past student's data at IIIT Delhi |
+
+### Research Papers (Anubhav Reads)
+
+A list of research papers in the domain of machine learning, deep learning and related fields. The list of papers can be viewed based on differentiating criteria's such as (Conference venue, Year Published, Topic Covered, Authors, etc.).
+
+You can find the curated list of research papers in [this repository](https://github.com/anubhavshrimal/Machine-Learning-Research-Papers).
+
 
 ### Kaggle Competitions
 
